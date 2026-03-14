@@ -25,18 +25,21 @@ Built a production-grade 2-node High Availability Kubernetes cluster using k3s o
 ![Security Group Rules](images/03-security-group-rules.png)
 *Security group with proper rules for cluster communication (ports 6443, 10250, 8472) and external access (SSH, NodePorts)*
 
+### 3. Cluster Health
+![Both Nodes Ready](images/04-nodes-both-ready.png)
+*Kubernetes dashboard showing both master and worker nodes in Ready state*
 
 ![Nodes with Metrics](images/05-nodes-final.png)
 *Real-time CPU and memory metrics for both nodes*
 
-### 3. Application Deployment
+### 4. Application Deployment
 ![nginx Pod Running](images/06-nginx-pod-running.png)
 *nginx test application deployed and running on the cluster*
 
 ![Dashboard Overview](images/08-dashboard-overview.png)
 *Dashboard showing workload status with running deployments and pods*
 
-### 4. Working Application
+### 5. Working Application
 ![nginx Welcome Page](images/09-nginx-welcome-page.png)
 *Browser accessing the deployed nginx application via NodePort 31779 — PROOF THAT IT WORKS!*
 
@@ -63,22 +66,19 @@ Built a production-grade 2-node High Availability Kubernetes cluster using k3s o
 - Add Prometheus/Grafana monitoring stack
 
 ## 📁 Repository Structure
-## 📁 Repository Structure
-```
 kubernetty-project/
 ├── README.md
 ├── images/
-│   ├── 01-architecture.png
-│   ├── 02-aws-instances.png
-│   ├── 03-security-group-rules.png
-│   ├── 04-nodes-both-ready.png
-│   ├── 05-nodes-final.png
-│   ├── 06-nginx-pod-running.png
-│   ├── dashboard-overview.png
-│   └── 09-nginx-welcome-page.png
+│ ├── 01-architecture.png
+│ ├── 02-aws-instances.png
+│ ├── 03-security-group-rules.png
+│ ├── 04-nodes-both-ready.png
+│ ├── 05-nodes-final.png
+│ ├── 06-nginx-pod-running.png
+│ ├── dashboard-overview.png
+│ └── 09-nginx-welcome-page.png
 └── CHALLENGES.md
-```
-📖 See [CHALLENGES.md](challenges.md) for detailed troubleshooting steps.
+
 
 ## 🎓 What I Learned
 - Kubernetes architecture and components (control plane, worker nodes)
@@ -88,9 +88,7 @@ kubernetty-project/
 - Exposing applications via NodePort services
 
 
-- ## 📫 Connect With Me
-- GitHub: [donaemeka](https://github.com/donaemeka)
-- LinkedIn: [Donatus Emeka Anyalebechi](https://linkedin.com/in/donatus-devops)
+- LinkedIn: [your-profile](https://www.linkedin.com/in/donatus-devops/)
 - Email: donaemeka92@gmail.com
 
 ---
