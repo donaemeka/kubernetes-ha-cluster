@@ -78,7 +78,7 @@ kubernetty-project/
 │   └── 09-nginx-welcome-page.png
 └── CHALLENGES.md
 ```
-📖 See [CHALLENGES.md](challenges.md) for detailed troubleshooting steps.
+📖 See [Challenges.md](challenges.md) for detailed troubleshooting steps.
 
 ## 🎓 What I Learned
 - Kubernetes architecture and components (control plane, worker nodes)
